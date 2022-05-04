@@ -1,0 +1,74 @@
+@font-face{
+    font-family: "titulo_topbar";
+    src: url(./Fontes/Inter/static/Inter-Bold.ttf)
+}
+
+@font-face{
+    font-family: "texto_topbar";
+    src: url(./Fontes/Inter/static/Inter-Regular.ttf)
+}
+
+@font-face{
+    font-family: "titulo_corpo";
+    src: url(./Fontes/Oxanium/static/Oxanium-Bold.ttf)
+}
+
+@font-face{
+    font-family: "texto_corpo";
+    src: url(./Fontes/Oxanium/static/Oxanium-Light.ttf)
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#topbar{
+    border: 0px;
+    height: 158px;
+    text-align: center;
+    background-color: #21c25e;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    font-family: "texto_topbar";
+    font-size: 25px;
+    color: white;
+}
+
+p{
+    margin: 0 auto;
+}
+
+#titulo-topbar{
+    font-family: "titulo_topbar";
+}
+
+#card{
+    margin: 25px 475px;
+}
+
+#corpo{
+    text-align: center;
+    font-family: "texto_corpo";
+    line-height: 25px;
+}
+
+.titulo-corpo{
+    font-family: "titulo_corpo";
+}
+
+#bloco1{
+    margin: 0 201px;
+    margin-bottom: 60px;
+}
+
+#rodape{
+    background-color: #13562D;
+    height: 86px;
+}
+
+#foot{
+    margin: 9px 500px;
+}
